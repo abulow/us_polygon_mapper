@@ -1,4 +1,4 @@
-﻿=================
+=================
 us_polygon_mapper
 =================
 
@@ -40,7 +40,7 @@ Middle: ‘mean’, ‘median’, float, ‘percentile=x’ (x: 0-100)
 
 By default, for csv’s and pandas DataFrames, the states column is assumed to be column 0, and the values column is assumed to be column 1.
 
-You can change this by passing the argument columns=[state_column_num, value_column_num] (e.g. [2, 3]) or columns=[state_column_name, value_column_name] (e.g. [‘state’, ‘debt’]) or a combination (e.g. [‘state’, 7]).
+You can change this by passing the argument columns=[state_column_num, value_column_num] (e.g. [2, 3]) or columns=[state_column_name, value_column_name] (e.g. [‘state’, ‘debt’]).
 
 
 Use case:
@@ -71,7 +71,7 @@ colors: ‘red’, ‘orange’, ‘yellow’, ‘green’, ‘blue’, ‘purpl
 
 middle: ‘mean’, ‘median’, float, ‘percentile=x’ (x: 0-100)
 
-columns: None, [state_column_num, value_column_num], [state_column_name, value_column_name] or a combination (e.g. [‘state’, 7])
+columns: None (defaults to [0, 1]), [state_column_num, value_column_num] (e.g. [2, 3]), or [state_column_name, value_column_name] (e.g. [‘state’, ‘debt’])
 
 
 Remark on png’s

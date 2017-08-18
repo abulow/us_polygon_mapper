@@ -3,7 +3,7 @@ import io
 
 setup(
     name='us_polygon_mapper',
-    version='1.0.0',
+    version='1.0.1',
     author='Adam Bulow',
     author_email='adamjbulow@gmail.com',
     packages=['us_polygon_mapper'],

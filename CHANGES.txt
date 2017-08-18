@@ -1,1 +1,2 @@
 v1.0.0, 2017-08-02 -- initial release
+v1.0.1, 2017-08-18 —- updated colors, fixed typo in example.py, corrected README

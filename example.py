@@ -11,7 +11,7 @@ print("Mapping...")
 
 
 uspm.csv_to_png(
-    csv_path, "blue", "red", 0, ['statdde', 'trump-clinton'],
+    csv_path, "blue", "red", 0, ['state', 'trump-clinton'],
     'example.png', 'example.html')
 
 
@@ -19,14 +19,14 @@ uspm.csv_to_png(
 
 '''
 values_dict = uspm.csv_to_values_dict(csv_path)
-uspm.dict_to_html(values_dict, "purple", "orange", "median")
+uspm.dict_to_html(values_dict, "purple", "brown", "median")
 '''
 
 # df_to_png()
 
 '''
 df = pd.DataFrame.from_csv(csv_path)
-uspm.df_to_png(df, "green", "brown", "percentile=90", [0, 1], "image", "web")
+uspm.df_to_png(df, "green", "yellow", "percentile=90", [0, 1], "image", "web")
 '''
 
 print("Done!")
