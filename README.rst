@@ -19,8 +19,6 @@ To install:
 To use:
 ::
 
-    #!/usr/bin/env python
-    
     import us_polygon_mapper.us_polygon_mapper as uspm
 
 
